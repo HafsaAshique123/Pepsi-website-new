@@ -1,0 +1,313 @@
+*{
+ margin: 0;
+  padding: 0;
+ 
+}
+.header {
+  background-color: rgb(1, 25, 24);
+  height: 150px;
+  width: 100%;
+  position: sticky;
+    top: 0;
+  
+    z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+   padding: 0px 80px; 
+   height: 100px;
+   text-align: center;
+   padding-top: 20px;
+    
+
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+   
+   
+ 
+}
+
+.logo img {
+  height: 80px;
+  padding-top: 20px;
+  
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 27px;
+  margin: 0;
+  color: white;
+  
+
+}
+.hero{
+ 
+  width: 100%;
+  position:relative;
+  display: block;
+ 
+ 
+  
+}
+.hero img {
+    overflow: hidden;
+  
+  width: 100%;
+  height: auto;
+   margin-top: 2px;
+   
+  
+}
+.text_content{
+  
+  
+    position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+  font-weight: 800;
+
+  
+  text-transform: uppercase;
+  
+    font-size: 5.2vw;
+    
+    line-height: 110%;
+   
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    text-transform: uppercase
+   
+}
+
+p{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  color: white;
+  width: 64%;
+ 
+   padding-top:12%;
+  
+     font-size:28px;
+    
+    unicode-bidi: isolate;
+     padding-left: 120px;
+    text-indent: -120px;
+    
+   
+
+  
+}
+.button_text{
+  position: absolute;
+  top: 65%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  height: 65px;
+  width: 170px;
+  color: white;
+  background-color: transparent;
+  
+  border-radius: 30px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: blue;
+}
+
+video{
+ width: 100%;
+    height: 100vh;
+    object-fit: cover;
+      
+}
+.video_section{
+  
+    margin: 0 200px; 
+    background-color: black;
+   
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+
+.products{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.products h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.product{
+    width: 300px;
+    text-align: center;
+}
+
+
+.product img{
+    width: 180px;
+    filter: drop-shadow(0 0 30px blue);
+    margin-bottom: 20px;
+}
+
+
+.product h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+
+.product button{
+    background: blue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product button:hover{
+    background: white;
+    color: blue;
+}
+
+.social-slider__logo{
+    margin-top: 65px;
+}
+.social-slider__subheading
+{
+    color: white;
+    font-size: 50px;
+    font-family: var(--font-owners-text);
+}
+.social-slider__heading{
+    color: #0025ff;
+    font-family: var(--font-owners-text);
+    font-size: 150px;
+
+font-weight: 90%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer {
+    background: black;
+    color: white;
+    padding: 40px 60px;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 2px solid white;
+    padding-top: 30px;
+}
+
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons i {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #00AEEF; /* Pepsi blue */
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    margin-top: 40px;
+   border-top: 1px solid #333;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+   
+ 
+                                                                                                        
+
+
